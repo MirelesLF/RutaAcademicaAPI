@@ -1,0 +1,26 @@
+{
+  "name": "ruta-academica-api",
+  "version": "2.0.0",
+  "description": "API de escuelas para RutaAcademica usando catalogos oficiales SEP/SIGED",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "importar:escuelas": "node scripts/importarEscuelas.js",
+    "validar:data": "node scripts/validarDatos.js"
+  },
+  "keywords": [
+    "ruta-academica",
+    "escuelas",
+    "sep",
+    "siged",
+    "api"
+  ],
+  "author": "Luis Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
