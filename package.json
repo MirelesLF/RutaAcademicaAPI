@@ -5,10 +5,14 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
+    
     "start": "node server.js",
     "dev": "node server.js",
     "importar:escuelas": "node scripts/importarEscuelas.js",
-    "validar:data": "node scripts/validarDatos.js"
+    "validar:data": "node scripts/validarDatos.js",
+    "minimizar:escuelas": "node scripts/minimizarEscuelas.js",
+    "comprimir:escuelas": "node scripts/comprimirEscuelas.js"
+    
   },
   "keywords": [
     "ruta-academica",
